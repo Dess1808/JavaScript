@@ -1,4 +1,4 @@
-//adicionar o evento ouvidor, tecnica para carregar o js mais rapido
+//adicionar o evento ouvidor, ainda se definição dessa função "DOMcontentLoaded"
 document.addEventListener('DOMContentLoaded', () => {
     //criando a função principal, criação de uma paragrafo
     function createParagraph(){
