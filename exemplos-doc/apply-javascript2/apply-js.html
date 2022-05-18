@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Apply JS</title>
+    </head>
+    <body>
+        <button onclick="createParagraph()">Click me</button>
+        
+        <script>
+            function createParagraph(){
+                const para = document.createElement('p');
+                para.textContent = 'You clicked the button!';
+                //precisar para adicionar as novas tags como filhas
+                document.body.appendChild(para);
+            }
+        </script>
+    </body>
+</html>
